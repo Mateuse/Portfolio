@@ -1,0 +1,142 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "Skills",
+    "projects": "Technical Experience",
+    "work": "Employment"
+  },
+  "basics": {
+    "name": "Emanuel Mateus",
+    "email": "emateus71@gmail.com",
+    "website": "emanuelmateus.com",
+    "phone": "(514) 553-9776"
+  },
+  "education": [
+    {
+      "institution": "Concordia University",
+      "location": "Montreal QC",
+      "area": "Software Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "Sep 2015",
+      "endDate": "April 2019",
+      "gpa": ""
+    }
+  ],
+  "work": [
+    {
+      "position": "Fullstack Software Engineer",
+      "website": "",
+      "startDate": "March 2023",
+      "endDate": "Present",
+      "highlights": [
+        "Build MFA workflows for user authentication in Manulife/John Hancock client portals using REACT, NodeJS, and .Net.",
+        "Incorporated Feature Flags into the development lifecycle, significantly enhancing deployment flexibility and efficiency across multiple applications, and streamlining their testing processes.",
+        "Engineered a new API middleware to facilitate the integration between an LDAP database and various in-house applications, bolstering data accessibility and inter-connectivity.",
+        "Revamped the user interface of several client portals to align with Figma design specifications, employing React."
+      ],
+      "company": "John Hancock"
+    },
+    {
+      "highlights": [
+        "Implement a follow topic system that increased user engagement for topics on MSN by 27% using web com- ponents and .NET.",
+        "Create a ”Topics for You” page that would show a custom feed based off of user preference increasing ad revenue for topics pages by 2.4% using web components and .NET.",
+        "Run experiments on new features by analyzing user behavior, monetization impact, and performance metrics through Azure Control Tower.",
+        "Member of the livesite excellence crew which improved time to resolution of livesites by 60% by providing train- ings, troubleshooting guides and queries enabling on call members to be better equipped to handle livesites.",
+        "Work with designers to deliver a functional and complete user experience for multiple user experiences on MSN.",
+        "Modify and build API responses to support new feature requests in MSN with .NET."
+      ],
+      "company": "Microsoft",
+      "position": "Software Engineer",
+      "startDate": "March 2022",
+      "endDate": "February 2023"
+    },
+    {
+      "highlights": [
+        "Implement microservices to process thousands of media media files per day using Python, RabbitMQ, and Celery.",
+        "Create a pipeline to convert 5 petabytes of physical media to the specified digital formats using Python, Rab- bitMQ, and Celery.",
+        "Build and maintain several internal media web applications using Flask, .Net, Angular, and MongoDB.",
+        "Integrated a continuous deployment system for Montreal’s broadcasting network of audio and video devices using Ansible, Python, and Jenkins.",
+        "Create workflows that modify and distribute thousands of media files per day to various internal applications using Python."
+      ],
+      "company": "Canadian Broadcasting Corporation",
+      "position": "Software Engineer",
+      "startDate": "April 2019",
+      "endDate": "March 2022"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Python",
+        ".NET",
+        "React",
+        "Angular",
+        "Node",
+        "Java",
+        "Golang",
+        "HTML",
+        "CSS"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Ansible",
+        "Jenkins",
+        "MongoDB",
+        "SQL",
+        "Rabbit MQ",
+        "Celery",
+        "AWS",
+        "Kusto"
+      ],
+      "name": "Technologies"
+    },
+    {
+      "keywords": [
+        "Engilsh (Mother Tongue)",
+        "French (Fluent)"
+      ],
+      "name": "Languages"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Quality Doc",
+      "description": "Built a real-time web application for PDF review, management, verision control, and statistical analysis for documents within a project or a team.",
+      "url": "",
+      "keywords": [
+        ".Net, Angular, SQL"
+      ]
+    },
+    {
+      "keywords": [
+        "Hugo",
+        "HTML",
+        "JavaScript",
+        "Scss"
+      ],
+      "name": "Wheel Snipe Celly",
+      "description": "Designed and developped a hockey related blog, including google analytics to track impressions made on the page. ",
+      "url": "wheelsnipecelly.info"
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

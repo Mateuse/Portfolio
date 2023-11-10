@@ -8,13 +8,26 @@ const skillsOneLiner = "My <span>Skills</span>";
 
 const work = [
     {
+        company: "John Hancock",
+        title: "Full Stack Software Engineer",
+        start: "March 2023",
+        end: "Present",
+        responsibilities: [
+            "Build MFA workflows for user authentication in Manulife/John Hancock client portals using REACT, NodeJS, and .Net",
+            "Incorporated Feature Flags into the development lifecycle, significantly enhancing deployment flexibility and efficiency across multiple applications, and streamlining their testing processes",
+            "Engineered a new API middleware to facilitate the integration between an LDAP database and various in-house applications, bolstering data accessibility and inter-connectivity",
+            "Revamped the user interface of several client portals to align with Figma design specifications, employing React"
+        ],
+        image: images.manulife
+    },
+    {
         company: "Microsoft",
         title: "Software Engineer",
         start: "March 2022",
         end: "February 2023",
         responsibilities: [
             "Implemented a follow topic system on MSN news using React, Web Components, and .Net",
-            "Create news carousels for relevant categories on MSN news using React, Web Compontents, and .Net",
+            "Create news carousels for relevant categories on MSN news using React, Web Components, and .Net",
             "Run experiments on features by analyzing user behavior, monetization, and performance metrics",
             "Investigate livesite related issues using Azure cloud monitoring services such as Grafana, Kusto, and Titan",
             "Modify and build API responses to support new feature requests in MSN news with .NET"
