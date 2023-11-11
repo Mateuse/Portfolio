@@ -27,7 +27,7 @@ import mongodb from '../assets/mongodb.png';
 import sql from '../assets/sql.png';
 import celery from '../assets/celery.png';
 import rabbitmq from '../assets/rabbitmq.png';
-import manulife from '../assets/John_Hancock_Insurance_Logo.svg';
+import manulife from '../assets/John-Hancock.png';
 
 import samplePerson from '../assets/samplePerson.png';
 import circle from '../assets/circle.svg';

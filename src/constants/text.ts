@@ -85,6 +85,13 @@ const work = [
 
 const projects = [
     {
+        name: "Wheel Snipe Celly",
+        description: "A Hockey related blog analyzing plays made in the sport",
+        technologies: ["Hugo", "HTML", "JavaScript", "Scss"],
+        github: "https://github.com/Mateuse/wheelSnipeCelly",
+        website: "https://wheelsnipecelly.info/"
+    },
+    {
         name: "ShareMe",
         description: "Photo sharing application allowing users to add, comment, save, and view photos",
         technologies: ["React", "SanityCMS"],
