@@ -24,44 +24,46 @@
   ],
   "work": [
     {
-      "position": "Fullstack Software Engineer",
-      "website": "",
-      "startDate": "March 2023",
-      "endDate": "Present",
+      "company": "John Hancock",
+      "position": "Full Stack Software Engineer",
+      "location": "Boston",
+      "startDate": "2023-03",
+      "endDate": "",
       "highlights": [
-        "Build MFA workflows for user authentication in Manulife/John Hancock client portals using REACT, NodeJS, and .Net.",
-        "Incorporated Feature Flags into the development lifecycle, significantly enhancing deployment flexibility and efficiency across multiple applications, and streamlining their testing processes.",
-        "Engineered a new API middleware to facilitate the integration between an LDAP database and various in-house applications, bolstering data accessibility and inter-connectivity.",
-        "Revamped the user interface of several client portals to align with Figma design specifications, employing React."
-      ],
-      "company": "John Hancock"
+        "Implemented MFA migration away from email across several applications using React and NodeJs, improving security security standards.",
+        "Designed and built new registration and validation workflows with React, NodeJS, .NET, and Spring.",
+        "Improve the performance of several utility API's by up to 20% using NodeJS and .Net.",
+        "Introduced feature flags across all internal applications, enabling A/B testing and lowering time to production by 10%.",
+        "Engineered a new API middleware to facilitate the integration between LDAP and various in-house applications, bolstering data accessibliity and inter-connectivity.",
+        "Mentor junior engineers, guiding them in solving problems efficiently using best practices."
+      ]
     },
     {
-      "highlights": [
-        "Implement a follow topic system that increased user engagement for topics on MSN by 27% using web com- ponents and .NET.",
-        "Create a ”Topics for You” page that would show a custom feed based off of user preference increasing ad revenue for topics pages by 2.4% using web components and .NET.",
-        "Run experiments on new features by analyzing user behavior, monetization impact, and performance metrics through Azure Control Tower.",
-        "Member of the livesite excellence crew which improved time to resolution of livesites by 60% by providing train- ings, troubleshooting guides and queries enabling on call members to be better equipped to handle livesites.",
-        "Work with designers to deliver a functional and complete user experience for multiple user experiences on MSN.",
-        "Modify and build API responses to support new feature requests in MSN with .NET."
-      ],
       "company": "Microsoft",
       "position": "Software Engineer",
-      "startDate": "March 2022",
-      "endDate": "February 2023"
+      "startDate": "2022-03",
+      "endDate": "2023-02",
+      "location": "Vancouver",
+      "highlights": [
+        "Implemented follow topic system increasing user engagement for selected topics by up to 27% using React and .NET.",
+        "Created a 'Topics for You' page which displayed a custom feed based off of user preferences, increasing ad revenue for topics pages by 2.4%",
+        "Member of the livesite excellence crew which provided trainings, troubleshooting guides, and investigative queries improving time to resolution of livesites by 60%",
+        "Modified and built API responses to support new features in MSN with .NET.",
+        "Created News carousels for relevant categories on MSN news using React, and .NET."
+      ]
     },
     {
-      "highlights": [
-        "Implement microservices to process thousands of media media files per day using Python, RabbitMQ, and Celery.",
-        "Create a pipeline to convert 5 petabytes of physical media to the specified digital formats using Python, Rab- bitMQ, and Celery.",
-        "Build and maintain several internal media web applications using Flask, .Net, Angular, and MongoDB.",
-        "Integrated a continuous deployment system for Montreal’s broadcasting network of audio and video devices using Ansible, Python, and Jenkins.",
-        "Create workflows that modify and distribute thousands of media files per day to various internal applications using Python."
-      ],
       "company": "Canadian Broadcasting Corporation",
       "position": "Software Engineer",
-      "startDate": "April 2019",
-      "endDate": "March 2022"
+      "startDate": "2019-04",
+      "endDate": "2022-03",
+      "location": "Montreal",
+      "highlights": [
+        "Implemented microservices to process thousands of media files per day using Python, RabbitMQ, and Celery.",
+        "Built and maintained an internal monitoring tool for media pipelines using Flask, Angular, and MongoDB.",
+        "Integrated a continuous deployment system for the audio and video broadcasting devices using Ansible, Python, and Jenkins.",
+        "Created workflows that modify and distribute thousands of media files per day to various internal applications using Python."
+      ]
     }
   ],
   "skills": [

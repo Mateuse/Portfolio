@@ -13,10 +13,12 @@ const work = [
         start: "March 2023",
         end: "Present",
         responsibilities: [
-            "Build MFA workflows for user authentication in Manulife/John Hancock client portals using REACT, NodeJS, and .Net",
-            "Incorporated Feature Flags into the development lifecycle, significantly enhancing deployment flexibility and efficiency across multiple applications, and streamlining their testing processes",
-            "Engineered a new API middleware to facilitate the integration between an LDAP database and various in-house applications, bolstering data accessibility and inter-connectivity",
-            "Revamped the user interface of several client portals to align with Figma design specifications, employing React"
+            "Implemented MFA migration away from email across several applications using React and NodeJs, improving security security standards.",
+                "Designed and built new registration and validation workflows with React, NodeJS, .NET, and Spring.",
+                "Improve the performance of several utility API's by up to 20% using NodeJS and .Net.",
+                "Introduced feature flags across all internal applications, enabling A/B testing and lowering time to production by 10%.",
+                "Engineered a new API middleware to facilitate the integration between LDAP and various in-house applications, bolstering data accessibliity and inter-connectivity.",
+                "Mentor junior engineers, guiding them in solving problems efficiently using best practices."
         ],
         image: images.manulife
     },
@@ -26,11 +28,13 @@ const work = [
         start: "March 2022",
         end: "February 2023",
         responsibilities: [
-            "Implemented a follow topic system on MSN news using React, Web Components, and .Net",
+            "Implemented follow topic system increasing user engagement for selected topics by up to 27% using React and .NET.",
             "Create news carousels for relevant categories on MSN news using React, Web Components, and .Net",
             "Run experiments on features by analyzing user behavior, monetization, and performance metrics",
-            "Investigate livesite related issues using Azure cloud monitoring services such as Grafana, Kusto, and Titan",
-            "Modify and build API responses to support new feature requests in MSN news with .NET"
+            "Created a 'Topics for You' page which displayed a custom feed based off of user preferences, increasing ad revenue for topics pages by 2.4%",
+            "Member of the livesite excellence crew which provided trainings, troubleshooting guides, and investigative queries improving time to resolution of livesites by 60%",
+            "Modified and built API responses to support new features in MSN with .NET.",
+
         ],
         image: images.microsoftLogo
     },
