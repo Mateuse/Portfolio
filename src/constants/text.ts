@@ -89,6 +89,13 @@ const work = [
 
 const projects = [
     {
+        name: "Workout",
+        description: "A workout related application allowing users to create and modify a workout plan (A work in progress)",
+        technologies: ["React", "Firebase"],
+        github: "https://github.com/Mateuse/workout",
+        website: "https://mateuse.github.io/workout/"
+    },
+    {
         name: "Wheel Snipe Celly",
         description: "A Hockey related blog analyzing plays made in the sport",
         technologies: ["Hugo", "HTML", "JavaScript", "Scss"],
