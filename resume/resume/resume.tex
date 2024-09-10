@@ -1,0 +1,154 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Emanuel} \headerlastnamestyle{Mateus} \\
+	\vspace{2mm}
+	{\faEnvelope\ emateus71@gmail.com} | {\faMobile\ (514) 553-9776} | {\faLink\ emanuelmateus.com}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Employment}
+\begin{cventries}
+	\cventry
+	{Full Stack Software Engineer}
+	{John Hancock}
+	{Boston}
+	{2023-03 – Present}
+	{\begin{cvitems}
+		\item {Implemented MFA migration away from email across several applications using React and NodeJs, improving and enhancing security standards.}
+		\item {Designed and built new registration and validation workflows with React, NodeJS, .NET, and Spring.}
+		\item {Improved the performance of several utility APIs by up to 20\% using NodeJS and .Net.}
+		\item {Introduced feature flags across all internal applications, enabling A/B testing and lowering time to production by 10\%.}
+		\item {Engineered a new API middleware to facilitate the integration between LDAP and various in-house applications, bolstering data accessibility and interconnectivity.}
+		\item {Mentored junior engineers, guiding them in solving problems efficiently using best practices.}
+		\end{cvitems}}
+	\cventry
+	{Software Engineer}
+	{Microsoft}
+	{Vancouver}
+	{2022-03 – 2023-02}
+	{\begin{cvitems}
+		\item {Implemented a follow-topic system increasing user engagement for selected topics by up to 27\% using React and .NET.}
+		\item {Created a \textquotesingle{}Topics for You\textquotesingle{} page, displaying a custom feed based on user preferences, increasing ad revenue for topics pages by 2.4\%.}
+		\item {Member of the Livesite Excellence Crew, which provided training, troubleshooting guides, and investigative queries, improving time to resolution of live sites by 60\%.}
+		\item {Modified and built API responses to support new features in MSN with .NET.}
+		\item {Created news carousels for relevant categories on MSN news using React and .NET.}
+		\end{cvitems}}
+	\cventry
+	{Software Engineer}
+	{Canadian Broadcasting Corporation}
+	{Montreal}
+	{2019-04 – 2022-03}
+	{\begin{cvitems}
+		\item {Implemented microservices to process thousands of media files per day using Python, RabbitMQ, and Celery.}
+		\item {Built and maintained an internal monitoring tool for media pipelines using Flask, Angular, and MongoDB.}
+		\item {Integrated a continuous deployment system for the audio and video broadcasting devices using Ansible, Python, and Jenkins.}
+		\item {Created workflows that modify and distribute thousands of media files per day to various internal applications using Python.}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ Python, .NET, React, Angular, Node, Java, Golang, HTML, CSS}} \\
+		Technologies:  & {\skill{ Ansible, Jenkins, MongoDB, SQL, Rabbit MQ, Celery, AWS, Kusto}} \\
+		Languages:  & {\skill{ English (Mother Tongue), French (Fluent)}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Technical Experience}
+\begin{cventries}
+	\cventry
+	{Built a real-time web application for PDF review, management, version control, and statistical analysis for documents within a project or a team.}
+	{Quality Doc}
+	{.Net, Angular, SQL}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Designed and developed a hockey-related blog, including Google Analytics to track impressions made on the page.}
+	{Wheel Snipe Celly}
+	{Hugo, HTML, JavaScript, Scss}
+	{wheelsnipecelly.info}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Created a workout app that allows users to track and modify their workouts by adding exercises, organizing workout days, and managing complete workout routines.}
+	{Workout}
+	{React, Firebase}
+	{https://mateuse.github.io/workout/}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Bachelor of Engineering in Software Engineering}
+	{Concordia University}
+	{Montreal QC}
+	{Sep 2015 – April 2019}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+\ 
+\end{document}

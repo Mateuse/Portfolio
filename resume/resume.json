@@ -1,5 +1,5 @@
 {
-  "selectedTemplate": 1,
+  "selectedTemplate": 2,
   "headings": {
     "skills": "Skills",
     "projects": "Technical Experience",
@@ -30,12 +30,12 @@
       "startDate": "2023-03",
       "endDate": "",
       "highlights": [
-        "Implemented MFA migration away from email across several applications using React and NodeJs, improving security security standards.",
+        "Implemented MFA migration away from email across several applications using React and NodeJs, improving and enhancing security standards.",
         "Designed and built new registration and validation workflows with React, NodeJS, .NET, and Spring.",
-        "Improve the performance of several utility API's by up to 20% using NodeJS and .Net.",
+        "Improved the performance of several utility APIs by up to 20% using NodeJS and .Net.",
         "Introduced feature flags across all internal applications, enabling A/B testing and lowering time to production by 10%.",
-        "Engineered a new API middleware to facilitate the integration between LDAP and various in-house applications, bolstering data accessibliity and inter-connectivity.",
-        "Mentor junior engineers, guiding them in solving problems efficiently using best practices."
+        "Engineered a new API middleware to facilitate the integration between LDAP and various in-house applications, bolstering data accessibility and interconnectivity.",
+        "Mentored junior engineers, guiding them in solving problems efficiently using best practices."
       ]
     },
     {
@@ -45,11 +45,11 @@
       "endDate": "2023-02",
       "location": "Vancouver",
       "highlights": [
-        "Implemented follow topic system increasing user engagement for selected topics by up to 27% using React and .NET.",
-        "Created a 'Topics for You' page which displayed a custom feed based off of user preferences, increasing ad revenue for topics pages by 2.4%",
-        "Member of the livesite excellence crew which provided trainings, troubleshooting guides, and investigative queries improving time to resolution of livesites by 60%",
+        "Implemented a follow-topic system increasing user engagement for selected topics by up to 27% using React and .NET.",
+        "Created a 'Topics for You' page, displaying a custom feed based on user preferences, increasing ad revenue for topics pages by 2.4%.",
+        "Member of the Livesite Excellence Crew, which provided training, troubleshooting guides, and investigative queries, improving time to resolution of live sites by 60%.",
         "Modified and built API responses to support new features in MSN with .NET.",
-        "Created News carousels for relevant categories on MSN news using React, and .NET."
+        "Created news carousels for relevant categories on MSN news using React and .NET."
       ]
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "keywords": [
-        "Engilsh (Mother Tongue)",
+        "English (Mother Tongue)",
         "French (Fluent)"
       ],
       "name": "Languages"
@@ -106,7 +106,7 @@
   "projects": [
     {
       "name": "Quality Doc",
-      "description": "Built a real-time web application for PDF review, management, verision control, and statistical analysis for documents within a project or a team.",
+      "description": "Built a real-time web application for PDF review, management, version control, and statistical analysis for documents within a project or a team.",
       "url": "",
       "keywords": [
         ".Net, Angular, SQL"
@@ -120,8 +120,17 @@
         "Scss"
       ],
       "name": "Wheel Snipe Celly",
-      "description": "Designed and developped a hockey related blog, including google analytics to track impressions made on the page. ",
+      "description": "Designed and developed a hockey-related blog, including Google Analytics to track impressions made on the page.",
       "url": "wheelsnipecelly.info"
+    },
+    {
+      "name": "Workout",
+      "description": "Created a workout app that allows users to track and modify their workouts by adding exercises, organizing workout days, and managing complete workout routines.",
+      "url": "https://mateuse.github.io/workout/",
+      "keywords": [
+        "React",
+        "Firebase"
+      ]
     }
   ],
   "awards": [
@@ -135,10 +144,10 @@
   "sections": [
     "templates",
     "profile",
-    "education",
     "work",
     "skills",
     "projects",
-    "awards"
+    "awards",
+    "education"
   ]
 }
