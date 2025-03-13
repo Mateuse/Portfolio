@@ -1,6 +1,6 @@
 import images from "./images";
 const name = "Emanuel Mateus";
-const description = "I'm a seasoned software engineer passionate about building scalable, efficient, and user-friendly applications. With expertise in full-stack development, continuous deployment, and system integration, I thrive on tackling complex challenges and learning new technologies. I am dedicated to writing clean, maintainable code and staying ahead of industry trends to consistently deliver high-quality solutions.";
+const description = "I'm a seasoned software engineer passionate about building scalable, efficient, and user-friendly applications. With my expertise in full-stack development, continuous deployment, and system integration, I thrive on tackling complex challenges and learning new technologies. I am dedicated to writing clean and maintainable code to consistently deliver high-quality solutions.";
 const aboutOneLiner = "I am a <span>Passionate Developer</span><br/>creating <span>Innovative Solutions</span>";
 const workOneLiner = "My <span>Experience</span>";
 const projectsOneLiner = "My <span>Projects</span>";
