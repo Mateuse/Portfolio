@@ -1,7 +1,7 @@
 import images from "./images";
 const name = "Emanuel Mateus";
-const description = "I am a software engineer with a passion for building scalable, efficient, and user-friendly applications. With experience in both fullstack development along with continuous deployment and integration, I enjoy working on projects that challenge me to learn new skills and technologies. I am dedicated to writing clean, maintainable code committed to staying up-to-date with the latest industry trends and best practices."
-const aboutOneLiner = "I am a <span>Passionate Developer</span><br/>creating <span>Innovative Solutions</span>"
+const description = "I'm a seasoned software engineer passionate about building scalable, efficient, and user-friendly applications. With expertise in full-stack development, continuous deployment, and system integration, I thrive on tackling complex challenges and learning new technologies. I am dedicated to writing clean, maintainable code and staying ahead of industry trends to consistently deliver high-quality solutions.";
+const aboutOneLiner = "I am a <span>Passionate Developer</span><br/>creating <span>Innovative Solutions</span>";
 const workOneLiner = "My <span>Experience</span>";
 const projectsOneLiner = "My <span>Projects</span>";
 const skillsOneLiner = "My <span>Skills</span>";
@@ -13,12 +13,12 @@ const work = [
         start: "March 2023",
         end: "Present",
         responsibilities: [
-            "Implemented MFA migration away from email across several applications using React and NodeJs, improving security security standards.",
-                "Designed and built new registration and validation workflows with React, NodeJS, .NET, and Spring.",
-                "Improve the performance of several utility API's by up to 20% using NodeJS and .Net.",
-                "Introduced feature flags across all internal applications, enabling A/B testing and lowering time to production by 10%.",
-                "Engineered a new API middleware to facilitate the integration between LDAP and various in-house applications, bolstering data accessibliity and inter-connectivity.",
-                "Mentor junior engineers, guiding them in solving problems efficiently using best practices."
+            "Implemented a new MFA authentication system for the company's login, account management, and registration using React and Node.js.",
+            "Designed and developed new registration and validation workflows for a new product using React, Node.js, .NET, and SQL.",
+            "Developed a Node.js API middleware leveraging LDAP for seamless retrieval of user information from Active Directory, improving authentication and account management.",
+            "Implemented feature flags across internal applications, enabling controlled feature rollouts and A/B testing, reducing deployment time by 10%.",
+            "Mentor junior engineers, guiding them in solving problems efficiently following best practices.",
+            "Updated and maintained legacy applications to meet current security standards using Spring Boot and .NET."
         ],
         image: images.manulife
     },
@@ -28,12 +28,11 @@ const work = [
         start: "March 2022",
         end: "February 2023",
         responsibilities: [
-            "Implemented follow topic system increasing user engagement for selected topics by up to 27% using React and .NET.",
-            "Create news carousels for relevant categories on MSN news using React, Web Components, and .Net",
-            "Run experiments on features by analyzing user behavior, monetization, and performance metrics",
-            "Created a 'Topics for You' page which displayed a custom feed based off of user preferences, increasing ad revenue for topics pages by 2.4%",
-            "Member of the livesite excellence crew which provided trainings, troubleshooting guides, and investigative queries improving time to resolution of livesites by 60%",
-            "Modified and built API responses to support new features in MSN with .NET.",
+            "Implemented a follow-topic system for MSN, increasing user engagement for selected topics by up to 27% using React and .NET.",
+            "Developed a 'Topics for You' page for MSN, delivering a personalized feed based on user preferences, increasing topic-based ad revenue by 2.4%.",
+            "Served on the Livesite Excellence Crew, delivering training, troubleshooting guides, and investigative queries to streamline live site issue resolution.",
+            "Enhanced API responses to support new MSN features using .NET.",
+            "Created news carousels for relevant categories on MSN using React.",
 
         ],
         image: images.microsoftLogo
@@ -44,11 +43,10 @@ const work = [
         start: "April 2019",
         end: "March 2022",
         responsibilities: [
-            "Implement microservices that process thousands of media files per day using Python, RabbitMQ, and Celery",
-            "Build and maintain internal media web applications using Flask, .Net, Angular, and MongoDB",
-            "Integrated a continous deployment system for Montreal's broadcasting network of audio and video devices using Ansible, Python, and Jenkins",
-            "Create a media pipeline to convert physically scanned media to the specified digital formats using Python, RabbitMQ, and Celery",
-            "Use AWS to run microservices (EC2) and store media files (S3)"
+            "Implemented microservices to process thousands of media files per day using Python, RabbitMQ, and Celery.",
+            "Built and maintained an internal monitoring tool for media pipelines, allowing for real-time monitoring of media processing using Angular, Flask, and MongoDB.",
+            "Integrated a continuous deployment system for audio and video broadcasting devices using Ansible, Python, and Jenkins.",
+            "Created workflows that modify and transcode media files for different platforms using FFmpeg and Python."
         ],
         image: images.cbcLogo
     },
@@ -89,11 +87,10 @@ const work = [
 
 const projects = [
     {
-        name: "Workout",
-        description: "A workout related application allowing users to create and modify a workout plan (A work in progress)",
-        technologies: ["React", "Firebase"],
-        github: "https://github.com/Mateuse/workout",
-        website: "https://mateuse.github.io/workout/"
+        name: "Yahoo Fantasy Analyzer",
+        description: "Analyzes Yahoo Fantasy Hockey data to provide users with insights on their team's performance.",
+        technologies: ["React", "Golang", "SQL", "Redis"],
+        github: "https://github.com/Mateuse/yahoo-fantasy-analyzer"
     },
     {
         name: "Wheel Snipe Celly",
@@ -107,6 +104,13 @@ const projects = [
         description: "Photo sharing application allowing users to add, comment, save, and view photos",
         technologies: ["React", "SanityCMS"],
         github: "https://github.com/Mateuse/share_me"
+    },
+    {
+        name: "Workout",
+        description: "A workout related application allowing users to create and modify a workout plan",
+        technologies: ["React", "Firebase"],
+        github: "https://github.com/Mateuse/workout",
+        website: "https://mateuse.github.io/workout/"
     },
     {
         name: "Fantasy Hockey",
@@ -135,20 +139,20 @@ const projects = [
 ]
 
 const skills = [
-    {name: "Python", img: images.python},
-    {name: "React", img: images.react},
-    {name: "C#", img: images.csharp},
-    {name: "Ansible", img: images.ansible},
-    {name: "Angular", img: images.angular},
-    {name: "Golang", img: images.go},
-    {name: "HTML", img: images.html},
-    {name: "CSS", img: images.css},
-    {name: "Jenkins", img: images.jenkins},
-    {name: "MongoDB", img: images.mongodb},
-    {name: "SQL", img: images.sql},
-    {name: "Celery", img: images.celery},
-    {name: "RabbitMQ", img: images.rabbitmq},
-    {name: "Git", img: images.git}
+    { name: "Python", img: images.python },
+    { name: "React", img: images.react },
+    { name: "C#", img: images.csharp },
+    { name: "Ansible", img: images.ansible },
+    { name: "Angular", img: images.angular },
+    { name: "Golang", img: images.go },
+    { name: "HTML", img: images.html },
+    { name: "CSS", img: images.css },
+    { name: "Jenkins", img: images.jenkins },
+    { name: "MongoDB", img: images.mongodb },
+    { name: "SQL", img: images.sql },
+    { name: "Celery", img: images.celery },
+    { name: "RabbitMQ", img: images.rabbitmq },
+    { name: "Git", img: images.git }
 ]
 
 const newOpportunities = "I am currently open to new opportunities and am excited to bring my skills and experience to a new role. If you have an opportunity that you think would be a good fit, please don't hesitate to contact me. I would love to hear from you and discuss how I can contribute to your team.";
