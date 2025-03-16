@@ -1,6 +1,7 @@
+import { finished } from "stream";
 import images from "./images";
 const name = "Emanuel Mateus";
-const description = "I'm a seasoned software engineer passionate about building scalable, efficient, and user-friendly applications. With my expertise in full-stack development, continuous deployment, and system integration, I thrive on tackling complex challenges and learning new technologies. I am dedicated to writing clean and maintainable code to consistently deliver high-quality solutions.";
+const description = "Fully committed to lifelong learning, I'm a seasoned software engineer with a deep passion for building scalable, efficient, and user-friendly applications. I thrive on tackling complex challenges and take pride in writing clean, maintainable, and efficient code. My dedication to best practices and continuous improvement enables me to deliver high-quality solutions that drive impact.";
 const aboutOneLiner = "I am a <span>Passionate Developer</span><br/>creating <span>Innovative Solutions</span>";
 const workOneLiner = "My <span>Experience</span>";
 const projectsOneLiner = "My <span>Projects</span>";
@@ -90,57 +91,66 @@ const projects = [
         name: "Yahoo Fantasy Analyzer",
         description: "Analyzes Yahoo Fantasy Hockey data to provide users with insights on their team's performance.",
         technologies: ["React", "Golang", "SQL", "Redis"],
-        github: "https://github.com/Mateuse/yahoo-fantasy-analyzer"
+        github: "https://github.com/Mateuse/yahoo-fantasy-analyzer",
+        finished: true
     },
     {
         name: "Wheel Snipe Celly",
         description: "A Hockey related blog analyzing plays made in the sport",
         technologies: ["Hugo", "HTML", "JavaScript", "Scss"],
         github: "https://github.com/Mateuse/wheelSnipeCelly",
-        website: "https://wheelsnipecelly.info/"
+        website: "https://wheelsnipecelly.info/",
+        finished: true
     },
     {
         name: "ShareMe",
         description: "Photo sharing application allowing users to add, comment, save, and view photos",
         technologies: ["React", "SanityCMS"],
-        github: "https://github.com/Mateuse/share_me"
+        github: "https://github.com/Mateuse/share_me",
+        finished: true
     },
     {
         name: "Workout",
         description: "A workout related application allowing users to create and modify a workout plan",
         technologies: ["React", "Firebase"],
         github: "https://github.com/Mateuse/workout",
-        website: "https://mateuse.github.io/workout/"
+        website: "https://mateuse.github.io/workout/",
+        finished: false
     },
     {
         name: "Fantasy Hockey",
         description: "A fantasy hockey application allowing users to manage their fantasy hockey league",
         technologies: ["Angular", "NestJS", "MongoDB"],
-        github: "https://github.com/Mateuse/hockey"
+        github: "https://github.com/Mateuse/hockey",
+        finished: true
     },
     {
         name: "Quality Doc",
         description: "Version control and collaboration for documents within a team or project",
         technologies: [".Net", "Angular", "SQL"],
-        github: "https://github.com/joeyfallu/QualityDoc"
+        github: "https://github.com/joeyfallu/QualityDoc",
+        finished: true
     },
     {
         name: "Crypto Watch",
         description: "A crypto portfolio allowing users to monitor their crypto portfolio in real time",
         technologies: ["React", "Flask", "MongoDB"],
-        github: "https://github.com/Mateuse/CryptoWatch"
+        github: "https://github.com/Mateuse/CryptoWatch",
+        finished: true
     },
     {
         name: "Personal Website",
         description: "My Personal Portfolio built to showcase my work in a more interesting way than a resume :)",
         technologies: ["React", "SCSS"],
-        github: "https://github.com/Mateuse/Portfolio/tree/code"
+        github: "https://github.com/Mateuse/Portfolio/tree/code",
+        finished: true
     }
 ]
 
 const skills = [
     { name: "Python", img: images.python },
     { name: "React", img: images.react },
+    { name: "Node.js", img: images.node },
     { name: "C#", img: images.csharp },
     { name: "Ansible", img: images.ansible },
     { name: "Angular", img: images.angular },
