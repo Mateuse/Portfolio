@@ -78,6 +78,7 @@
 
         .app__work-content-time {
             margin: 1rem;
+            color: var(--gray-color)
         }
 
         @media screen and (max-width: 1000px) {
@@ -97,11 +98,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         margin-bottom: 1rem;
         text-decoration: underline;
         @media screen and (max-width: 1000px) {
             justify-content: flex-start;
             align-items: flex-start;
+            text-align: left;
             margin: 1rem 1rem
         }
     }
