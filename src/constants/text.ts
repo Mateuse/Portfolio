@@ -1,7 +1,7 @@
 import { finished } from "stream";
 import images from "./images";
 const name = "Emanuel Mateus";
-const description = "Fully committed to lifelong learning, I'm a seasoned software engineer with a deep passion for building scalable, efficient, and user-friendly applications. I thrive on tackling complex challenges and take pride in writing clean, maintainable, and efficient code. My dedication to best practices and continuous improvement enables me to deliver high-quality solutions that drive impact.";
+const description = "I’m a software engineer with a strong focus on building scalable, maintainable systems that deliver real-world value. I specialize in full-stack development and enjoy designing solutions that are both technically sound and user-centric. My work has supported products used by millions of users, and I take pride in writing clean, reliable code that holds up at scale. I approach engineering with ownership and a commitment to continuous improvement, always aiming to solve hard problems and drive meaningful impact.";
 const aboutOneLiner = "I am a <span>Passionate Developer</span><br/>creating <span>Innovative Solutions</span>";
 const workOneLiner = "My <span>Experience</span>";
 const projectsOneLiner = "My <span>Projects</span>";
@@ -14,12 +14,11 @@ const work = [
         start: "March 2023",
         end: "Present",
         responsibilities: [
-            "Implemented a new MFA authentication system for the company's login, account management, and registration using React and Node.js.",
-            "Designed and developed new registration and validation workflows for a new product using React, Node.js, .NET, and SQL.",
-            "Developed a Node.js API middleware leveraging LDAP for seamless retrieval of user information from Active Directory, improving authentication and account management.",
-            "Implemented feature flags across internal applications, enabling controlled feature rollouts and A/B testing, reducing deployment time by 10%.",
-            "Mentor junior engineers, guiding them in solving problems efficiently following best practices.",
-            "Updated and maintained legacy applications to meet current security standards using Spring Boot and .NET."
+            "Built a Time-based One-Time Password (TOTP) system using Node.js and React, enhancing authentication across login, registration, and account workflows and improving platform security.",
+            "Developed scalable onboarding flows using React, .NET, Node.js, and SQL, enabling faster user registration for a new product line.",
+            "Engineered a Node.js middleware integrating with LDAP/Active Directory to streamline user identity verification, improving reliability in enterprise authentication processes.",
+            "Mentored junior engineers through code reviews and technical design feedback, increasing overall team velocity and technical depth.",
+            "Rolled out a homegrown feature flag system using application settings in Node.js and React applications, reducing deployment risk and enabling controlled rollouts and A/B tests, decreasing time-to-release by 10%."
         ],
         image: images.manulife
     },
@@ -29,11 +28,11 @@ const work = [
         start: "March 2022",
         end: "February 2023",
         responsibilities: [
-            "Implemented a follow-topic system for MSN, increasing user engagement for selected topics by up to 27% using React and .NET.",
-            "Developed a 'Topics for You' page for MSN, delivering a personalized feed based on user preferences, increasing topic-based ad revenue by 2.4%.",
-            "Served on the Livesite Excellence Crew, delivering training, troubleshooting guides, and investigative queries to streamline live site issue resolution.",
-            "Enhanced API responses to support new MSN features using .NET.",
-            "Created news carousels for relevant categories on MSN using React.",
+            "Built a personalized Follow Topic feature using React and .NET, increasing user engagement on MSN by 27%.",
+            "Developed and deployed the Topics for You page using .NET and React, delivering a tailored content experience and driving a 2.4% increase in topic-specific ad revenue.",
+            "Extended .NET APIs to support new MSN content features, enabling faster delivery of editorial updates.",
+            "Created interactive news carousels in React for category-specific content, enhancing content discoverability and visual appeal.",
+            "Served on the Livesite Excellence Crew, producing training material and diagnostic queries that reduced incident resolution time and improved operational response."
 
         ],
         image: images.microsoftLogo
@@ -44,10 +43,10 @@ const work = [
         start: "April 2019",
         end: "March 2022",
         responsibilities: [
-            "Implemented microservices to process thousands of media files per day using Python, RabbitMQ, and Celery.",
-            "Built and maintained an internal monitoring tool for media pipelines, allowing for real-time monitoring of media processing using Angular, Flask, and MongoDB.",
-            "Integrated a continuous deployment system for audio and video broadcasting devices using Ansible, Python, and Jenkins.",
-            "Created workflows that modify and transcode media files for different platforms using FFmpeg and Python."
+            "Built scalable microservices in Python using RabbitMQ and Celery to process thousands of media files daily, automating core media workflows.",
+            "Developed an internal monitoring dashboard using Angular, Flask, and MongoDB to enable real-time tracking of media pipeline health, reducing response time to failures.",
+            "Automated the deployment of broadcasting systems using Ansible, Jenkins, and Python, streamlining releases and reducing configuration errors.",
+            "Implemented media transcoding pipelines using FFmpeg and Python, ensuring compatibility of video and audio content across multiple platforms."
         ],
         image: images.cbcLogo
     },
