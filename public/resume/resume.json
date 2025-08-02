@@ -30,12 +30,11 @@
       "startDate": "2023-03",
       "endDate": "",
       "highlights": [
-        "Implemented a new MFA authentication system for the company's login, account management, and registration using React and Node.js.",
-        "Designed and developed new registration and validation workflows for a new product using React, Node.js, .NET, and SQL.",
-        "Developed a Node.js API middleware leveraging LDAP for seamless retrieval of user information from Active Directory, improving authentication and account management.",
-        "Implemented feature flags across internal applications, enabling controlled feature rollouts and A/B testing, reducing deployment time by 10%.",
-        "Mentor junior engineers, guiding them in solving problems efficiently following best practices.",
-        "Updated and maintained legacy applications to meet current security standards using Spring Boot and .NET."
+        "Built a Time-based One-Time Password (TOTP) system using Node.js and React, enhancing authentication across login, registration, and account workflows and improving platform security.",
+        "Developed scalable onboarding flows using React, .NET, Node.js, and SQL, enabling faster user registration for a new product line.",
+        "Engineered a Node.js middleware integrating with LDAP/Active Directory to streamline user identity verification, improving reliability in enterprise authentication processes.",
+        "Mentored junior engineers through code reviews and technical design feedback, increasing overall team velocity and technical depth.",
+        "Rolled out a homegrown feature flag system using application settings in Node.js and React applications, reducing deployment risk and enabling controlled rollouts and A/B tests, decreasing time-to-release by 10%."
       ]
     },
     {
@@ -45,11 +44,11 @@
       "endDate": "2023-02",
       "location": "Vancouver",
       "highlights": [
-        "Implemented a follow-topic system for MSN, increasing user engagement for selected topics by up to 27% using React and .NET.",
-        "Developed a 'Topics for You' page for MSN, delivering a personalized feed based on user preferences, increasing topic-based ad revenue by 2.4%.",
-        "Served on the Livesite Excellence Crew, delivering training, troubleshooting guides, and investigative queries to streamline live site issue resolution.",
-        "Enhanced API responses to support new MSN features using .NET.",
-        "Created news carousels for relevant categories on MSN using React."
+        "Built a personalized Follow Topic feature using React and .NET, increasing user engagement on MSN by 27%.",
+        "Developed and deployed the Topics for You page using .NET and React, delivering a tailored content experience and driving a 2.4% increase in topic-specific ad revenue.",
+        "Extended .NET APIs to support new MSN content features, enabling faster delivery of editorial updates.",
+        "Created interactive news carousels in React for category-specific content, enhancing content discoverability and visual appeal.",
+        "Served on the Livesite Excellence Crew, producing training material and diagnostic queries that reduced incident resolution time and improved operational response."
       ]
     },
     {
@@ -59,10 +58,10 @@
       "endDate": "2022-03",
       "location": "Montreal",
       "highlights": [
-        "Implemented microservices to process thousands of media files per day using Python, RabbitMQ, and Celery.",
-        "Built and maintained an internal monitoring tool for media pipelines, allowing for real-time monitoring of media processing using Angular, Flask, and MongoDB.",
-        "Integrated a continuous deployment system for audio and video broadcasting devices using Ansible, Python, and Jenkins.",
-        "Created workflows that modify and transcode media files for different platforms using FFmpeg and Python."
+        "Built scalable microservices in Python using RabbitMQ and Celery to process thousands of media files daily, automating core media workflows.",
+        "Developed an internal monitoring dashboard using Angular, Flask, and MongoDB to enable real-time tracking of media pipeline health, reducing response time to failures.",
+        "Automated the deployment of broadcasting systems using Ansible, Jenkins, and Python, streamlining releases and reducing configuration errors.",
+        "Implemented media transcoding pipelines using FFmpeg and Python, ensuring compatibility of video and audio content across multiple platforms."
       ]
     }
   ],
@@ -109,20 +108,10 @@
       "name": "Yahoo Fantasy Analyzer",
       "description": "Analyzes Yahoo Fantasy Hockey data to provide users with insights on their team's performance.",
       "url": "",
-      "keywords": [
-        "Golang",
-        "React",
-        "SQL",
-        "Redis"
-      ]
+      "keywords": ["Golang", "React", "SQL", "Redis"]
     },
     {
-      "keywords": [
-        "Hugo",
-        "HTML",
-        "JavaScript",
-        "Scss"
-      ],
+      "keywords": ["Hugo", "HTML", "JavaScript", "Scss"],
       "name": "Wheel Snipe Celly",
       "description": "Built a hockey-related blog with Google Analytics to track user impressions. Technologies used: Hugo, JavaScript, Google Analytics.",
       "url": "wheelsnipecelly.info"
@@ -131,11 +120,7 @@
       "name": "Workout",
       "description": "A crypto portfolio tracker allowing users to monitor their investments in real-time. Technologies used: React, Flask, MongoDB.",
       "url": "",
-      "keywords": [
-        "React",
-        "Flask",
-        "MongoDB"
-      ]
+      "keywords": ["React", "Flask", "MongoDB"]
     }
   ],
   "awards": [
