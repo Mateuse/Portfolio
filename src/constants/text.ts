@@ -1,7 +1,7 @@
 import { finished } from "stream";
 import images from "./images";
 const name = "Emanuel Mateus";
-const description = "I’m a software engineer with a strong focus on building scalable, maintainable systems that deliver real-world value. I specialize in full-stack development and enjoy designing solutions that are both technically sound and user-centric. My work has supported products used by millions of users, and I take pride in writing clean, reliable code that holds up at scale. I approach engineering with ownership and a commitment to continuous improvement, always aiming to solve hard problems and drive meaningful impact.";
+const description = "I’m a software engineer with a strong focus on building scalable, maintainable systems that deliver real-world value. I specialize in designing solutions that are both technically sound and user-centric. My work has supported products used by millions of users, and I take pride in writing clean, reliable code that holds up at scale. I approach engineering with ownership and a commitment to continuous improvement, always aiming to solve hard problems and drive meaningful impact.";
 const aboutOneLiner = "I am a <span>Passionate Developer</span><br/>creating <span>Innovative Solutions</span>";
 const workOneLiner = "My <span>Experience</span>";
 const projectsOneLiner = "My <span>Projects</span>";
